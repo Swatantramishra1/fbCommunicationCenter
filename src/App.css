@@ -99,6 +99,7 @@ p {
 }
 
 .main-comment-container {
+	flex-direction: column;
 	padding: 7px 7px 7px 14px;
 	background-color: #eff1f3;
 }
@@ -176,10 +177,10 @@ p {
     right: 9px;
     bottom: 9px;
     font-size: 18px;
-    background-color: blue;
+    background-color: #4267b2;
     color: white;
     cursor: pointer;
-    border: 1px solid blue;
+    border: 1px solid #4267b2;
     border-radius: 50%;
     padding: 5px;
 }

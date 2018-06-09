@@ -10,7 +10,6 @@ function getTime() {
 
 io.on('connection', (client) => {
     client.on('subscribeToTimer', (interval) => {
-        console.log('client is subscribing to timer with interval ', interval);
         setInterval(() => {
             client.emit('timer',
                 getTime()

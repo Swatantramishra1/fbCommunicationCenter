@@ -94,8 +94,7 @@ class App extends Component {
 
   postData(e) {
     e.preventDefault();
-    let testData = [...this.state.posts]
-    alert(e.target.newPostContent.value)
+    let testData = [...this.state.posts];
     let postData = {
       "createdAt": new Date(),
       "text": e.target.newPostContent.value,
